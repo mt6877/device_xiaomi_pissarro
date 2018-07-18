@@ -230,6 +230,7 @@ PRODUCT_PACKAGES += \
    WifiOverlay
 
 PRODUCT_PACKAGES += \
+   LineageDialerPissarro \
    LineageSDKPissarro
 
 # Partitions
