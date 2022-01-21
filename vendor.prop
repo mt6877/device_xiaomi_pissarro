@@ -52,6 +52,7 @@ debug.sf.high_fps.hwc.min.duration=7500000
 debug.sf.high_fps.late.app.duration=10000000
 debug.sf.high_fps.late.sf.duration=8300000
 drm.service.enabled=true
+debug.renderengine.backend=skiaglthreaded
 init.userspace_reboot.is_supported=true
 media.c2.dmabuf.padding=3072
 persist.adb.nonblocking_ffs=0
