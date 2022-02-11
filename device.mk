@@ -19,9 +19,6 @@ DEVICE_PATH := device/xiaomi/pissarro
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 $(call inherit-product, vendor/xiaomi/pissarro/pissarro-vendor.mk)
 
 PRODUCT_TARGET_VNDK_VERSION := 30
