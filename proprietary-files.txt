@@ -2678,7 +2678,7 @@ vendor/lib/libnxp_extamp_intf.so
 vendor/lib/libperfctl_vendor.so
 vendor/lib/libpkm.so
 vendor/lib/libpower_timer.so
-vendor/lib/libpowerhal.so
+-vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libpq_cust_base.so
 vendor/lib/libpqframework.so
@@ -3897,7 +3897,7 @@ vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpkm.so
 vendor/lib64/libpn557_fw.so
 vendor/lib64/libpower_timer.so
-vendor/lib64/libpowerhal.so
+-vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpqframework.so
