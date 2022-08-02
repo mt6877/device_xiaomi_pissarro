@@ -293,6 +293,10 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail_vendor
 
+# MIUI Camera
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
+
 # NDK Platform backend
 PRODUCT_PACKAGES += \
     android.hardware.gnss-V1-ndk_platform.vendor:64 \
@@ -400,6 +404,10 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.2.vendor \
     libchrome.vendor
+
+# Sysconfig
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sysconfig/hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-package-whitelist.xml
 
 # Light
 PRODUCT_PACKAGES += \
