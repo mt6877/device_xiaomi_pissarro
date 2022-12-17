@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pissarro.mk
+    $(LOCAL_DIR)/arrow_pissarro.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pissarro-user \
-    lineage_pissarro-userdebug \
-    lineage_pissarro-eng
+    arrow_pissarro-user \
+    arrow_pissarro-userdebug \
+    arrow_pissarro-eng
