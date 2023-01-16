@@ -171,3 +171,6 @@ BOARD_VNDK_VERSION := current
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-11-05
+
+# Vintf
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/vintf/manifest.xml
