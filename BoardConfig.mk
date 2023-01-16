@@ -174,3 +174,7 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/vintf/compatibility_matrix.xml
 
 # Firmware
 include vendor/xiaomi/pissarro-firmware/BoardConfigVendor.mk
+
+# SEPolicy
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+SELINUX_IGNORE_NEVERALLOWS := true
