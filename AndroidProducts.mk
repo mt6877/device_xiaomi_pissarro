@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_pissarro.mk
+    $(LOCAL_DIR)/derp_pissarro.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_pissarro-user \
-    arrow_pissarro-userdebug \
-    arrow_pissarro-eng
+    derp_pissarro-user \
+    derp_pissarro-userdebug \
+    derp_pissarro-eng

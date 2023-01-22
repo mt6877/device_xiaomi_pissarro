@@ -69,6 +69,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Properties
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure.recovery=0
 
+# StayDerped
+PRODUCT_PACKAGES += \
+    DerpSettingsOverlay
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
