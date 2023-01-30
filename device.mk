@@ -431,6 +431,11 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.3.vendor \
     android.hardware.usb.gadget@1.1.vendor
 
+# Vendor service
+PRODUCT_PACKAGES += \
+    vndservice \
+    vndservicemanager
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-V1-ndk_platform.vendor
