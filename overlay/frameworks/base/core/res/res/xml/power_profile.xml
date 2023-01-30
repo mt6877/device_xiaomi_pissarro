@@ -137,7 +137,7 @@
     </array>
     <array name="memory.bandwidths">
         <value>22.7</value>
-    </array>>
+    </array>
     <item name="battery.capacity">5160</item>
     <item name="wifi.controller.idle">0</item>
     <item name="wifi.controller.rx">0</item>
