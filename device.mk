@@ -290,6 +290,13 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail_vendor
 
+# NDK Platform backend
+PRODUCT_PACKAGES += \
+    android.hardware.memtrack-V1-ndk_platform.vendor:64 \
+    android.hardware.security.keymint-V1-ndk_platform.vendor:64 \
+    android.hardware.security.sharedsecret-V1-ndk_platform.vendor:64 \
+    android.hardware.security.secureclock-V1-ndk_platform.vendor:64 \
+
 # Neural Networks
 PRODUCT_PACKAGES += \
     libruy \
@@ -354,7 +361,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.power-V1.vendor \
-    android.hardware.power-V1-ndk_platform.vendor \
+    android.hardware.power-V1-ndk.vendor \
     android.hardware.power@1.0.vendor \
     android.hardware.power@1.1.vendor \
     android.hardware.power@1.3.vendor
@@ -424,7 +431,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-V1-ndk_platform.vendor
+    android.hardware.vibrator-V1-ndk_platform.vendor:64
 
 # Wifi
 PRODUCT_PACKAGES += \
