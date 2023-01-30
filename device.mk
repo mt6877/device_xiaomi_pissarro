@@ -433,6 +433,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-V1-ndk_platform.vendor:64
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libutils-v32
+
 # Wifi
 PRODUCT_PACKAGES += \
     hostapd \
