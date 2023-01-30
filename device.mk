@@ -412,6 +412,11 @@ PRODUCT_PACKAGES += \
     android.hardware.tetheroffload.control@1.0.vendor \
     android.hardware.tetheroffload.control@1.1.vendor
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.3.vendor \
+    android.hardware.usb.gadget@1.1.vendor
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-V1-ndk_platform.vendor
