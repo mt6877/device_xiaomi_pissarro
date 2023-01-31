@@ -103,7 +103,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3.vendor \
     android.hardware.soundtrigger@2.0-core \
     android.hardware.soundtrigger@2.3-impl \
-    audio.a2dp.default \
     audio.usb.default \
     audio_policy.stub
 
