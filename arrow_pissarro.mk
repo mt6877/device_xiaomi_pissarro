@@ -42,6 +42,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=pissarro \
     PRODUCT_NAME=pissarro \
-    PRIVATE_BUILD_DESC="pissarro-user 12 SP1A.210812.016 V13.0.6.0.SKTMIXM release-keys"
+    PRIVATE_BUILD_DESC="missi_phoneext4_cn-user 13 TP1A.220624.014 V14.0.23.1.3.DEV release-keys"
 
-BUILD_FINGERPRINT := Redmi/vnd_pissarro/pissarro:12/SP1A.210812.016/V13.0.6.0.SKTMIXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/vnd_pissarro/pissarro:12/SP1A.210812.016/V14.0.23.1.3.DEV:user/release-keys
