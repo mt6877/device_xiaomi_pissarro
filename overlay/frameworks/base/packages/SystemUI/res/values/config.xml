@@ -60,4 +60,7 @@
         <item>0</item>
     </integer-array>
 
+    <!-- Show HyperCharge when fast charger is plugged in -->
+    <string name="keyguard_plugged_in_oem_fast_charging">HyperCharge</string>
+
 </resources>
