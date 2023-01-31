@@ -23,4 +23,7 @@
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">true</bool>
 
+    <!-- Show HyperCharge when fast charger is plugged in -->
+    <string name="keyguard_plugged_in_oem_fast_charging">HyperCharge</string>
+
 </resources>

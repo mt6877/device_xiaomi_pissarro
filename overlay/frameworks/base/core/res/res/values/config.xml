@@ -348,6 +348,10 @@
     
 <!-- Display -->
 
+    <!-- The default minimum refresh rate for a given device. Devices with higher refresh rates
+         may want to configure this to avoid jank during refresh rate switching -->
+    <integer name="config_defaultMinimumRefreshRate">60</integer>
+
     <!-- The default peak refresh rate for a given device. Change this value if you want to prevent
          the framework from using higher refresh rates, even if display modes with higher refresh
          rates are available from hardware composer. Only has an effect if the value is
@@ -598,8 +602,8 @@
     
 <!-- Various -->
 
-    <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">true</bool>
+        <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
 
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
