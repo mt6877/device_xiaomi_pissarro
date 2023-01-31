@@ -14,7 +14,6 @@ etc/init/init.vtservice.rc
 -framework/mediatek-ims-base.jar
 -framework/mediatek-ims-common.jar
 -framework/mediatek-ims-extension-plugin.jar
--framework/mediatek-ims-legacy.jar
 -framework/mediatek-telecom-common.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
@@ -340,7 +339,6 @@ vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 vendor/lib64/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvhidl.so
 
 # Dumpstate
@@ -1806,7 +1804,6 @@ vendor/lib/imx471_sunny_mipi_raw_india_tuning.so
 vendor/lib/imx471_sunny_mipi_raw_tuning.so
 vendor/lib/lib3a.af.assist.models.so
 vendor/lib/lib3a.aishutter.models.so
-vendor/lib/libAVCSecureVencCA.so
 vendor/lib/libCamera_gc02m1ofilmmipiraw_Default_Capture.so
 vendor/lib/libCamera_gc02m1ofilmmipiraw_Default_Preview.so
 vendor/lib/libCamera_gc02m1ofilmmipiraw_Default_Video.so
@@ -2811,7 +2808,6 @@ vendor/lib64/lib3a.log.so
 vendor/lib64/lib3a.n3d3a.so
 vendor/lib64/lib3a.sensors.color.so
 vendor/lib64/lib3a.sensors.flicker.so
-vendor/lib64/libAVCSecureVencCA.so
 vendor/lib64/libCamera_gc02m1ofilmmipiraw_Default_Capture.so
 vendor/lib64/libCamera_gc02m1ofilmmipiraw_Default_Preview.so
 vendor/lib64/libCamera_gc02m1ofilmmipiraw_Default_Video.so
