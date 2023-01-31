@@ -5,7 +5,7 @@
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
 # 1 "vendor/mediatek/proprietary/hardware/fstab/mt6877/fstab.in.mt6877" 2
-# 141 "vendor/mediatek/proprietary/hardware/fstab/mt6877/fstab.in.mt6877"
+# 150 "vendor/mediatek/proprietary/hardware/fstab/mt6877/fstab.in.mt6877"
 system /system ext4 ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
 
 vendor /vendor ext4 ro wait,slotselect,avb,logical,first_stage_mount
