@@ -179,7 +179,7 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/vintf/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vintf/compatibility_matrix.device.xml
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2021-11-05
+VENDOR_SECURITY_PATCH := 2022-11-01
 
 # Firmware
 include vendor/xiaomi/pissarro-firmware/BoardConfigVendor.mk
