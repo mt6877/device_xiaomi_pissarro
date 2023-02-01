@@ -26,6 +26,9 @@ bluetooth.profile.mcp.server.enabled=true
 bluetooth.profile.ccp.server.enabled=true
 bluetooth.profile.vcp.controller.enabled=true
 
+# MIUI Camera
+ro.miui.notch=1
+ro.product.mod_device=pissarro_global
 
 aaudio.mmap_exclusive_policy=0
 aaudio.mmap_policy=0
