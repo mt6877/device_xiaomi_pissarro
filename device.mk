@@ -23,6 +23,9 @@ $(call inherit-product, vendor/xiaomi/pissarro/pissarro-vendor.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Project ID Quota
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # A/B
 ENABLE_VIRTUAL_AB := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
