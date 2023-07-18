@@ -260,7 +260,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.target.rc
+    init.target.rc \
+    init.recovery.mt6877.rc
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/etc/init.mt6877.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.mt6877.rc \
