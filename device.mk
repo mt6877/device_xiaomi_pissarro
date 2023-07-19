@@ -23,6 +23,10 @@ $(call inherit-product, vendor/xiaomi/pissarro/pissarro-vendor.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Dalvik VM Configuration
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression_retrofit.mk)
+
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
