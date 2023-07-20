@@ -177,6 +177,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libfmq \
     libdrm.vendor \
+    libutils-v32 \
     libhwc2on1adapter \
     libhwc2onfbadapter
 
