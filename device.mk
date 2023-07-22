@@ -257,6 +257,9 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-common
 
 # Init
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/etc/init.mt6877.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.mt6877.rc \
     $(DEVICE_PATH)/rootdir/etc/fstab.mt6877:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/fstab.mt6877 \
