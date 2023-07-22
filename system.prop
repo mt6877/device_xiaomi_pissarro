@@ -51,3 +51,5 @@ wifi.tethering.interface=ap0
 vendor.rild.libargs=-d /dev/ttyC0
 vendor.rild.libpath=mtk-ril.so
 
+# Zygote
+zygote.critical_window.minute=10
