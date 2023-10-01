@@ -1,2 +1,0 @@
-allow vtservice mtk_viwifi_support_prop:file { getattr  map  open  read };
-allow vtservice mtk_volte_support_prop:file { getattr  map  open  read };

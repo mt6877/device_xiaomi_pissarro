@@ -1,1 +1,0 @@
-allow thermal tel_switch_prop:file { getattr  map  open  read };

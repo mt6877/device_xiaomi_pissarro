@@ -1,2 +1,0 @@
-allow system_server init:binder { call  transfer };
-allow system_server proc_last_kmsg:file { getattr  read };

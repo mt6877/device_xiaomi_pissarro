@@ -1,3 +1,0 @@
-allow zygote vendor_debug_prop:file { getattr  map  open  read };
-allow zygote vendor_default_prop:file { getattr  map  open  read };
-allow zygote vendor_file:file { execute  getattr  map  open  read };
